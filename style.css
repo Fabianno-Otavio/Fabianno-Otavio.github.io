@@ -166,7 +166,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #F1F8FD;
+    padding-left: 2rem;
+    color: #ffffff;
 }
 
 .exp-company-name,
@@ -176,7 +177,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #70C6C7;
     padding-bottom: .4rem;
 }
 
@@ -195,7 +196,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #70C6C7;
     padding-bottom: .4rem;
 }
 
