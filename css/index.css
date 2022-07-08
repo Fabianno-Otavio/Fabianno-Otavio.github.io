@@ -31,6 +31,14 @@ a::before {
     margin-right:10px;
 }
 
+header>img{
+    width:60px;
+    height:60px;
+}
+
+body>img{
+    width:100%;
+}
 #button::before{
     content:none;
 }
