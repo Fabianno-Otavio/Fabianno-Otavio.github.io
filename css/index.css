@@ -12,22 +12,22 @@ nav{
     
 }
 
-a{
+nav>a{
     display:inline-flex;
     align-items: center;
     color:#FFF;
     font-size:20px;
-    font-family:"Fira Code", Arial, Helvetica, sans-serif;
+    font-family:"Fira Code", cursive, Helvetica, sans-serif;
     font-weight:500;
     text-decoration:none;
     margin-right:30px;  
 }
 
-a::before {
+nav>a::before {
     content: "";
     width:10px;
     height:10px;
-    background-color: #074C7D;
+    background-color: #E4960E;
     margin-right:10px;
 }
 
@@ -36,22 +36,78 @@ header>img{
     height:60px;
 }
 
-body>img{
+div>img{
     width:100%;
+    position:absolute;
 }
-#button::before{
+
+.buttonHeader::before{
     content:none;
 }
 
-#button{
+.buttonHeader{
     display:inline-block;
-    background-color:#074C7D;
+    background-color:#E4960E;
     padding:18px 20px;
     box-shadow:5px 5px 0 #000;
     margin-right:0;
 }
 
-#button:hover{
+.buttonHeader:hover{
     background-color:#71989B;
     cursor:pointer;
 }
+
+.box{
+    width: 627px;
+    height: 184px;
+    margin-left:5%;
+    margin-top:7%;
+    background-color: #3A4042;
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family:"Press Start 2P", Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px #000;
+    box-shadow: 10px 10px #000;
+}
+
+.box>h1{
+    color:#E4960E;
+    font-weight: 400;
+    font-size:40px;
+}
+
+.box>h2{
+    color:#FFF;
+    font-weight: 300;
+    font-size:30px;
+}
+
+.links{
+    position:absolute;
+    display:flex;
+    justify-content: space-evenly;
+    width:627px;
+    margin-top:398px;
+    margin-left: 5%;
+
+}
+
+.links>a{
+    color:#FFF;
+    background-color:#E4960E;
+    box-shadow: 5px 5px #000;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    font-family:"Fira Code", cursive, Helvetica, sans-serif;
+    text-align:center;
+    padding:17px 20px;
+    width: 132px;
+    height:26px;
+}
+
+
+
