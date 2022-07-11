@@ -68,21 +68,6 @@ div>img{
     display:flex;
     flex-direction:column;
     align-items:center;
-    font-family:"Press Start 2P", Arial, Helvetica, sans-serif;
-    text-shadow: 4px 4px #000;
-    box-shadow: 10px 10px #000;
-}
-
-.box>h1{
-    color:#E4960E;
-    font-weight: 400;
-    font-size:40px;
-}
-
-.box>h2{
-    color:#FFF;
-    font-weight: 300;
-    font-size:30px;
 }
 
 .links{
