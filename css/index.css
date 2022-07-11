@@ -58,19 +58,7 @@ div>img{
     cursor:pointer;
 }
 
-.box{
-    width: 627px;
-    height: 184px;
-    margin-left:5%;
-    margin-top:7%;
-    background-color: #3A4042;
-    position:absolute;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
-.links{
+#links{
     position:absolute;
     display:flex;
     justify-content: space-evenly;
@@ -80,7 +68,7 @@ div>img{
 
 }
 
-.links>a{
+#links>a{
     color:#FFF;
     background-color:#E4960E;
     box-shadow: 5px 5px #000;
