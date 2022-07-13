@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html language="pt-BR">
     <head>
         <title>Fabianno Otávio</title>
@@ -7,17 +8,20 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/index.css">
-        <link rel="stylesheet" href="./css/components/title.css">
+        
+        <link rel="stylesheet" href="./css/components/main-title.css">
         <link rel="stylesheet" href="./css/components/subtitle.css">
         <link rel="stylesheet" href="./css/components/box.css">
         <link rel="stylesheet" href="./css/components/button.css">
         <link rel="stylesheet" href="./css/components/action.css">
         <link rel="stylesheet" href="./css/components/header.css">
         <link rel="stylesheet" href="./css/components/banner.css">
-        <link rel="stylesheet" href="./css/components/skill.css">
+        <link rel="stylesheet" href="./css/components/skill-tec.css">
         <link rel="stylesheet" href="./css/components/section.css">
+        <link rel="stylesheet" href="./css/components/progress-bar.css">
+        <link rel="stylesheet" href="./css/components/wrapper-skill.css">
+        <link rel="stylesheet" href="./css/reset.css">
+
     </head>
     <body>
         <header class="header">
@@ -34,7 +38,7 @@
         <section class="banner">
             <div class="wrapper">
                 <div class="box">
-                    <h1 class="title">Fabianno O.</h1>
+                    <h1 class="main-title">Fabianno O.</h1>
                     <h2 class="subtitle">FrontEnd Developer</h2>
                 </div>
                 <div class="navigation">
@@ -45,41 +49,46 @@
         </section>
 
         <section class="section">
-            <h1 class="title -second">Skills</h1>
-            <div class="skillBox">
-                <div class="skill">
-                    <img class="logo" src="./assets/img/HTML.png" alt="">
-                    <p class="progressBar">HTML</p>
-                </div>
-                <div class="skill">
-                    <img class="logo" src="./assets/img/NODEJS.png" alt="">
-                    <p class="progressBar">HTML</p>
-                </div>
-                <div class="skill">
-                    <img class="logo" src="./assets/img/CSS.png" alt="">
-                    <p class="progressBar">HTML</p>
-                </div>
-                <div class="skill">
-                    <img class="logo" src="./assets/img/TDD.png" alt="">
-                    <p class="progressBar">HTML</p>
-                </div>
-                <div class="skill">
-                    <img class="logo" src="./assets/img/JS.png" alt="">
-                    <p class="progressBar">HTML</p>
-                </div>
-                <div class="skill">
-                    <img class="logo" src="./assets/img/RAPI.png" alt="">
-                    <p class="progressBar">HTML</p>
-                </div>
-                <div class="skill">
-                    <img class="logo" src="./assets/img/REACT.png" alt="">
-                    <p class="progressBar">HTML</p>
-                </div>
-                <div class="skill">
-                    <img class="logo" src="./assets/img/UX.png" alt="">
-                    <p class="progressBar">HTML</p>
-                </div>
+
+            <h2 class="main-title -second">Skills</h2>
+
+            <div class="wrapper-skill">
+                <article class="skill-tec">  
+                    <img class = "logo" src="./assets/img/HTML.png" alt="Logo do HTML em Pixel Art">
+                    <div class="right">
+                        <h3 class="title">HTML</h3>
+                        <progress class="progress-bar" max="100" value="50">50%</progress>
+                    </div>
+                </article>
+
+                <article class="skill-tec">  
+                    <img class = "logo" src="./assets/img/CSS.png" alt="Logo do CSS em Pixel Art">
+                    <div class="right">
+                        <h3 class="title">CSS</h3>
+                        <progress class="progress-bar" max="100" value="60">60%</progress>
+                    </div>
+                </article>
+
+                <article class="skill-tec">  
+                    <img class = "logo" src="./assets/img/JS.png" alt="Logo do JavaScript">
+                    <div class="right">
+                        <h3 class="title">JavaScript</h3>
+                        <progress class="progress-bar" max="100" value="20">20%</progress>
+                    </div>
+                </article>
+
+                <article class="skill-tec">  
+                    <img class = "logo" src="./assets/img/REACT.png" alt="Logo do REACT">
+                    <div class="right">
+                        <h3 class="title">React</h3>
+                        <progress class="progress-bar" max="100" value="2">2%</progress>
+                    </div>
+                </article>
+                  
             </div>
-        </section>    
+
+        </section> 
+           
     </body>
+     
 </html> 
