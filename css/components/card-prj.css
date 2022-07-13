@@ -1,0 +1,26 @@
+.card-prj{
+    width: 280px;
+    height:280px;
+    background-color:#2B4F61;
+    box-shadow:10px 10px #FFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-prj .imgprj{
+    width:245px;
+}
+
+.card-prj:first-child .imgprj{
+    border:5px  solid #000;
+}
+
+.card-prj:last-child .imgprj{
+    border:5px  solid #000;
+}
+
+.card-prj:nth-child(2){
+    background-color:#4C5B84;
+}
+
