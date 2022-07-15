@@ -1,0 +1,53 @@
+.card-abt{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    height:100%;
+    justify-content: space-between;
+}
+
+.card-abt::before{
+    content:"";
+    background-image: url(../../assets/img/line-vertical.png);
+    box-sizing: border-box;
+    height: 41px;
+    width:5px;
+    transform: translateY(34px);
+    position:absolute;
+}
+
+.card-abt .logo-abt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #CEB02A;
+    width:100%;
+    height:140px;
+    border:5px solid #000;
+    margin-bottom:0;
+}
+
+.card-abt.-t1{
+    width:220px;
+}
+
+.card-abt.-t2{
+    width:140px;
+}
+
+.card-abt.-t3{
+    width:170px;
+}
+
+.card-abt .title{
+    text-align: center;
+    text-shadow: none;
+    font-size:25px;
+    color:#E4960E;
+    font-family: 'Press Start 2P';
+}
+
+
+

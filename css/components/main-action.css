@@ -15,3 +15,12 @@
     background-color: #E4960E;
     margin-right:10px;
 }
+
+.main-action.-atc:before{
+    display:none;
+}
+
+.main-action.-atc{
+    margin:50px 0 0 0;
+    text-align: justify;
+}

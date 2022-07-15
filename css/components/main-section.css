@@ -12,3 +12,36 @@
     background-color: #000;
     border-bottom: 10px solid #E4960E;
 }
+
+.main-section.-about{
+    background-color: #2B4F61;
+    border-bottom:10px solid #000;
+    padding:50px 80px 66px 80px;
+    position: relative;
+    display:block;
+    overflow: hidden;
+}
+
+.main-section.-about:before{
+    content:"";
+    height:5px;
+    width: 95%;
+    right:2.5%;
+    background-color:#000;
+    top:180px;
+    position: absolute;
+}
+.main-section.-about:after{
+    content:"";
+    height:5px;
+    width:100%;
+    left:0;
+    background-image:url(../../assets/img/line-horizontal-left.png);
+    position:absolute;
+    top:180px;
+}
+
+
+
+
+
