@@ -1,8 +1,8 @@
 .main-section{
-    background-color: #E4960E;
+    background-color: #F18805;
     border-bottom: 10px solid #2B4F61;
-    padding:50px 0 116px;
     position:relative;
+    padding: 50px 50px 116px 50px;
 }
 
 .main-section .main-title{
@@ -11,7 +11,7 @@
 
 .main-section.-projects{
     background-color: #000;
-    border-bottom: 10px solid #E4960E;
+    border-bottom: 10px solid #F18805;
 }
 
 .main-section.-about{

@@ -1,7 +1,14 @@
-const card = document.querySelector('.wrapper-cards')
-const btnRight=document.querySelector('.button-arrow.-right')
+const card = document.querySelector('.wrapper-cards');
+const btnRight=document.querySelector('.button-arrow.-right');
+let article = document.querySelector('.main-action.-atc');
 let n = 1;
-let img = document.querySelector(`.logo-abt.-n${n}`);
+
+document.querySelector(`.logo-abt.-n1`).style.border='10px solid white';
+document.querySelector(`.logo-abt.-n1`).style.transform='scale(1.08)';
+ 
+document.querySelector(`.logo-abt.-n2`).style.filter='blur(2px) grayscale(50%)';
+document.querySelector(`.logo-abt.-n3`).style.filter='blur(2px) grayscale(50%)';
+
 /*let pos = 0;
 function move(pixels){
     pos+=pixels;
@@ -17,23 +24,42 @@ function select(i){
     document.querySelector(`.logo-abt.-n${n}`).style.border='';
     document.querySelector(`.logo-abt.-n${n}`).style.transform=''; 
     document.querySelector(`.logo-abt.-n${n}`).style.filter='blur(2px) grayscale(50%)';
-
+     
     n += Number(i);
-    if(n>0 && n<4){
-        document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid white';       
-        document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.1)';   
-        document.querySelector(`.logo-abt.-n${n}`).style.filter='';        
-    } else if(n<=0){
-        n=3;
-        document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid white';     
-        document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.1)';
-        document.querySelector(`.logo-abt.-n${n}`).style.filter=''; 
-    } else if (n>3){
-        n=1;
-        document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid white'; 
-        document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.1)'; 
-        document.querySelector(`.logo-abt.-n${n}`).style.filter=''; 
-    }
     
+    switch(n){
+        case 1:
+        case 2:
+        case 3:
+            document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid white';       
+            document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.08)';   
+            document.querySelector(`.logo-abt.-n${n}`).style.filter='';
+            break;
+        case 0:
+            n=3;
+            document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid white';     
+            document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.08)';
+            document.querySelector(`.logo-abt.-n${n}`).style.filter='';
+            break;
+        case 4:
+            n=1;
+            document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid white'; 
+            document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.08)'; 
+            document.querySelector(`.logo-abt.-n${n}`).style.filter=''; 
+        
+    }
+    text(n);
 }
-  
+
+function text(t){
+    switch (t){
+        case 1:
+            article.innerHTML='Iniciou seus estudos em engenharia civil.';
+            break;
+        case 2:
+            article.innerHTML='Se formou em engenharia civil.';
+            break;
+        case 3:
+            article.innerHTML='Começou a transição de carreira.';
+    }
+}

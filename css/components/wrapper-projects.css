@@ -1,10 +1,14 @@
 .wrapper-projects{
     position:relative;
     display:flex;
+    max-width: 960px;
     justify-content: space-between;
     align-content:space-between;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
     flex-wrap: wrap;
+}
 
+.wrapper-projects a {
+    margin-bottom:60px;
 }
