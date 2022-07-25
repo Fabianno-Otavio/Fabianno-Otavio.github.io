@@ -1,8 +1,6 @@
 .wrapper-cards{
+    display:flex;
     height:215px;
-    display: flex;
     justify-content: space-between;
-    position: relative;
-    transform:translateX(200px)
+    transition: 0.5s ease-in-out;
 }
-
