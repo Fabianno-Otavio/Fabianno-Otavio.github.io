@@ -1,0 +1,17 @@
+{
+    "cSpell.language": "en,pt",
+    "cSpell.enableFiletypes": [
+        "clojure",
+        "cpp_embedded_latex",
+        "dart",
+        "ini",
+        "jsx-tags",
+        "julia",
+        "makefile",
+        "objective-c",
+        "quokka-timeline",
+        "ruby",
+        "sql",
+        "xml"
+    ]
+}
