@@ -28,6 +28,7 @@
         <link rel="stylesheet" href="./css/components/button-arrow.css">
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/components/main-field.css">
+        <link rel="stylesheet" href="./css/components/form-ctc.css">
     </head>
     
     <body>
@@ -173,22 +174,24 @@
 
         <section class="main-section -form">
             <h2 class="main-title -second">Contatos</h2>
-            <article class="main-field">
-                <p class="main-action -ctc">Nome</p>
-                <input type="text" class="input-txt -name">
-            </article>
-            <article class="main-field">
-                <p class="main-action -ctc">E-mail</p>
-                <input type="text" class="input-txt -email">
-            </article>
-            <article class="main-field">
-                <p class="main-action -ctc">Mensagem</p>
-                <input type="text" class="input-txt -msg">
-            </article>
-            <a href="" class="main-button -ctc">Enviar</a>
+            <form action="" method="get" class="form-ctc" onsubmit="validateForm()">
+                
+                    <label class="label-form">Nome</label>
+                    <input class="input-txt -name" type="text" name="name">
+               
+                    <label class="label-form">E-mail</label>
+                    <input class="input-txt -email" type="text" name="email" >
+  
+                    <label class="label-form">Mensagem</label>
+                    <textarea class="input-txt -msg" name="message" rows="10"></textarea>
+
+                    <input class="main-button -ctc" name="send" type="submit" value="Enviar">
+
+            </form>
         </section>
 
         <script src="js/components/main-carrousel.js"></script>
+        <script src="js/components/main-form.js"></script>
     </body>
      
 </html> 
