@@ -2,7 +2,7 @@
     width:50px;
     height:50px;
     background-color: #F18805;
-    position: absolute;
+    position: relative;
     box-shadow: 5px 5px #000;
     display: flex;
     align-items: center;
@@ -15,18 +15,19 @@
 }
 
 .button-arrow.-left{
-    left:0.5%;
-    top:45%;
+    position:absolute;
+    top: 34%;
+    left: 0.5%;
 }
 
 .button-arrow.-right{
+    position:absolute;
+    top: 34%;
     right:0.5%;
-    top:45%;
 }
 
-.button-arrow.-left:before{
+.button-arrow.-left::before{
     content:"";
-    position: inherit;
     left:8px;
     width: 0; 
     height: 0; 
@@ -35,9 +36,8 @@
     border-right:30px solid #FFF; 
 }
 
-.button-arrow.-right:before{
+.button-arrow.-right::before{
     content:"";
-    position: inherit;
     right:8px;
     width: 0; 
     height: 0; 
@@ -46,3 +46,10 @@
     border-left:30px solid #FFF; 
 }
 
+@media screen and (max-width: 1240px){
+
+    .button-arrow.-left, .button-arrow.-right{
+        top: 27%;
+    }
+
+}

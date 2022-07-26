@@ -27,6 +27,7 @@
         <link rel="stylesheet" href="./css/components/main-carrousel.css">
         <link rel="stylesheet" href="./css/components/button-arrow.css">
         <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/components/main-field.css">
     </head>
     
     <body>
@@ -102,7 +103,7 @@
                 </a>
                 <a href="">
                     <figure class="card-prj -blue">
-                        <img class="imgprj" src="/assets/img/collab_code.png" alt="Logo da Collab Code">
+                        <img class="imgprj" src="/assets/img/logo.png" alt="Logo Fabianno">
                     </figure>
                 </a>
                 <a href="">
@@ -131,7 +132,7 @@
         <section class="main-section -about">
             <h2 class="main-title -second">Sobre</h2>
                 <section class="main-carrousel">
-                    <button class="button-arrow -left" onclick="select('-1')">
+                    <button class="button-arrow -left" onclick="select(-1)">
                         <span class="clear">Botão</span>
                     </button>
                     <div class="wrapper-cards">
@@ -139,26 +140,26 @@
                         <figure class="card-abt -t1">
                             <figcaption class="title">2015</figcaption>
                             <div class="logo-abt -n1">
-                                <img src="assets/img/unialfa.png" alt="Logo da locaweb">
+                                <img src="assets/img/unialfa.png" alt="Logo da unialfa">
                             </div>
                         </figure>
 
                         <figure class="card-abt -t3">
                             <figcaption class="title">2020</figcaption>
                             <div class="logo-abt -n2">
-                                <img src="assets/img/ebr.png" alt="Logo da locaweb">
+                                <img src="assets/img/ebr.png" alt="Logo da EBR Engenharia">
                             </div>
                         </figure>
 
                         <figure class="card-abt -t3">
                             <figcaption class="title">2022</figcaption>
                             <div class="logo-abt -n3">
-                                <img src="assets/img/html-css-js.png" alt="Logo da locaweb">
+                                <img src="assets/img/html-css-js.png" alt="Logo do HTML, CSS e JavaScript">
                             </div>
                         </figure>
                         
                     </div>
-                    <button class="button-arrow -right" onclick="select('1')">
+                    <button class="button-arrow -right" onclick="select(1)">
                         <span class="clear">Botão</span>
                     </button>
                     <article class="main-action -atc">
@@ -169,6 +170,24 @@
                     </article>
                 </section>       
         </section>
+
+        <section class="main-section -form">
+            <h2 class="main-title -second">Contatos</h2>
+            <article class="main-field">
+                <p class="main-action -ctc">Nome</p>
+                <input type="text" class="input-txt -name">
+            </article>
+            <article class="main-field">
+                <p class="main-action -ctc">E-mail</p>
+                <input type="text" class="input-txt -email">
+            </article>
+            <article class="main-field">
+                <p class="main-action -ctc">Mensagem</p>
+                <input type="text" class="input-txt -msg">
+            </article>
+            <a href="" class="main-button -ctc">Enviar</a>
+        </section>
+
         <script src="js/components/main-carrousel.js"></script>
     </body>
      

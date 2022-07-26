@@ -16,11 +16,30 @@
     margin-right:10px;
 }
 
-.main-action.-atc:before{
+.main-action.-atc{
+    height:300px;
+    align-items: flex-start;
+}
+
+.main-action.-atc::before, .main-action.-ctc::before{
     display:none;
 }
 
-.main-action.-atc{
+.main-action.-atc, .main-action.-ctc{
     margin:50px 0 0 0;
     text-align: justify;
+    font-size:30px;
+    font-weight: 300;
+    line-height: 36.92px;
+}
+.main-action.-ctc{
+    margin-top:20px;
+}
+
+@media screen and (max-width: 1240px){
+
+    .main-action.-atc{
+        height:500px;
+    }
+
 }
