@@ -3,11 +3,11 @@ const btnRight=document.querySelector('.button-arrow.-right');
 let article = document.querySelector('.main-action.-atc');
 let n = 1;
 
-document.querySelector(`.logo-abt.-n1`).style.border='10px solid white';
+document.querySelector(`.logo-abt.-n1`).style.border='10px solid gray';
 document.querySelector(`.logo-abt.-n1`).style.transform='scale(1.08)';
  
-document.querySelector(`.logo-abt.-n2`).style.filter='blur(2px) grayscale(50%)';
-document.querySelector(`.logo-abt.-n3`).style.filter='blur(2px) grayscale(50%)';
+document.querySelector(`.logo-abt.-n2`).style.filter='blur(2px) grayscale(90%)';
+document.querySelector(`.logo-abt.-n3`).style.filter='blur(2px) grayscale(90%)';
 
 /*let pos = 0;
 function move(pixels){
@@ -20,34 +20,15 @@ function move(pixels){
 }*/
 
 function select(i){
-
+ 
     document.querySelector(`.logo-abt.-n${n}`).style.border='';
     document.querySelector(`.logo-abt.-n${n}`).style.transform=''; 
-    document.querySelector(`.logo-abt.-n${n}`).style.filter='blur(2px) grayscale(50%)';
+    document.querySelector(`.logo-abt.-n${n}`).style.filter='blur(2px) grayscale(90%)';
      
     n += Number(i);
 
-    switch(n){
-        case 1:
-        case 2:
-        case 3:
-            document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid gray';       
-            document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.08)';   
-            document.querySelector(`.logo-abt.-n${n}`).style.filter='';
-            break;
-        case 0:
-            n=3;
-            document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid gray';     
-            document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.08)';
-            document.querySelector(`.logo-abt.-n${n}`).style.filter='';
-            break;
-        case 4:
-            n=1;
-            document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid gray'; 
-            document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.08)'; 
-            document.querySelector(`.logo-abt.-n${n}`).style.filter=''; 
-        
-    }
+    addEffects(n);
+
     text(n);
 }
 
@@ -61,5 +42,28 @@ function text(t){
             break;
         case 3:
             article.innerHTML='Em abril de 2022, visto a dificuldade de conseguir um emprego na minha área, e vendo a área de tecnologia crescer cada vez mais, me lembrei do quanto gostava da matéria de lógica de programação na faculdade, e decidi pesquisar mais sobre, me identifiquei muito com o FrontEnd, e decidi começar a minha transição de carreira, não só pelas maiores oportunidades, mas por fazer algo que realmente amo. Desde então me dedico em aprender HTML, CSS e JavaScript, e assim busco me tornar um desenvolvedor FrontEnd.';
+    }
+}
+
+function addEffects(x){
+    switch(x){
+        case 1:
+        case 2:
+        case 3:
+            document.querySelector(`.logo-abt.-n${x}`).style.border='10px solid gray';       
+            document.querySelector(`.logo-abt.-n${x}`).style.transform='scale(1.08)';   
+            document.querySelector(`.logo-abt.-n${x}`).style.filter='';
+            break;
+        case 0:
+            n=3;
+            document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid gray';     
+            document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.08)';
+            document.querySelector(`.logo-abt.-n${n}`).style.filter='';
+            break;
+        case 4:
+            n=1;
+            document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid gray'; 
+            document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.08)'; 
+            document.querySelector(`.logo-abt.-n${n}`).style.filter=''; 
     }
 }
