@@ -27,8 +27,9 @@
         <link rel="stylesheet" href="./css/components/main-carrousel.css">
         <link rel="stylesheet" href="./css/components/button-arrow.css">
         <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/components/main-field.css">
+        <link rel="stylesheet" href="./css/components/main-label.css">
         <link rel="stylesheet" href="./css/components/form-ctc.css">
+        <link rel="stylesheet" href="./css/components/main-input.css">
     </head>
     
     <body>
@@ -174,16 +175,16 @@
 
         <section class="main-section -form">
             <h2 class="main-title -second">Contatos</h2>
-            <form action="" method="get" class="form-ctc" onsubmit="validateForm()">
+            <form class="form-ctc" onsubmit="validateForm()">
                 
-                    <label class="label-form">Nome</label>
-                    <input class="input-txt -name" type="text" name="name">
+                    <label for="name" class="main-label">Nome</label>
+                    <input class="main-input" type="text" name="name" id="name">
                
-                    <label class="label-form">E-mail</label>
-                    <input class="input-txt -email" type="text" name="email" >
+                    <label for="email" class="main-label">E-mail</label>
+                    <input class="main-input" type="email" name="email" id="email">
   
-                    <label class="label-form">Mensagem</label>
-                    <textarea class="input-txt -msg" name="message" rows="10"></textarea>
+                    <label for="msg" class="main-label">Mensagem</label>
+                    <textarea class="main-input" name="message" id="msg"></textarea>
 
                     <input class="main-button -ctc" name="send" type="submit" value="Enviar">
 
