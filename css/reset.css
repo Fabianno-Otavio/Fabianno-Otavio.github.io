@@ -5,6 +5,7 @@ body,h1,h2,h3,figure,input{
     margin:0;
     padding:0;
 }
+
 body{
     padding-top:92px;
 }
@@ -12,4 +13,8 @@ body{
 button{
     border:none;
     font-family:inherit;
+}
+
+a{
+    text-decoration: none;
 }

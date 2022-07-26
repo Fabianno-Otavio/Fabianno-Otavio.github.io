@@ -1,0 +1,22 @@
+.main-footer{
+    text-align: center;
+    background-color: #000;
+    padding:28px;
+    display:block;
+}
+
+.main-footer .img-social {
+    width:45px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+.main-footer a{
+    display:inline-block;
+    width:45px;
+    margin-left:40px;
+}
+
+.main-footer a:first-child{
+    margin-left:0;
+}
