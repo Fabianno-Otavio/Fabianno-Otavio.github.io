@@ -2,7 +2,7 @@
     width:50px;
     height:50px;
     background-color: #F18805;
-    position: relative;
+    position: absolute;
     box-shadow: 5px 5px #000;
     display: flex;
     align-items: center;
@@ -15,20 +15,20 @@
 }
 
 .button-arrow.-left{
-    position:absolute;
-    top: 34%;
-    left: 0.5%;
+
+    top: 20%;
+    left: 0;
+    
 }
 
 .button-arrow.-right{
-    position:absolute;
-    top: 34%;
-    right:0.5%;
+
+    top: 20%;
+    right:0;
 }
 
 .button-arrow.-left::before{
     content:"";
-    left:8px;
     width: 0; 
     height: 0; 
     border-top: 17px solid transparent;
@@ -38,7 +38,6 @@
 
 .button-arrow.-right::before{
     content:"";
-    right:8px;
     width: 0; 
     height: 0; 
     border-top: 17px solid transparent;
@@ -49,7 +48,7 @@
 @media screen and (max-width: 1240px){
 
     .button-arrow.-left, .button-arrow.-right{
-        top: 27%;
+        top:15%;
     }
 
 }

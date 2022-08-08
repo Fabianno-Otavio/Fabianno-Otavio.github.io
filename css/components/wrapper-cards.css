@@ -1,5 +1,6 @@
 .wrapper-cards{
     display:flex;
+    width:75%;
     height:215px;
     justify-content: space-between;
     transition: 0.5s ease-in-out;
