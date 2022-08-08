@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    top: 20%;
 }
 
 .button-arrow .clear{
@@ -15,15 +16,10 @@
 }
 
 .button-arrow.-left{
-
-    top: 20%;
     left: 0;
-    
 }
 
 .button-arrow.-right{
-
-    top: 20%;
     right:0;
 }
 
