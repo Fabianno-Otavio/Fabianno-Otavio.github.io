@@ -1,16 +1,19 @@
 .skill-tec {
-    display: flex;
-    align-items: center;
     font-family: 'Press Start 2P', sans-serif;
     font-size: 25px;
     color: #FFF;
-    background-color: gray;
-    padding:15px;
-    box-shadow: 5px 5px black;
 }
 
 .skill-tec .logo {
-    margin-right: 25px;
-    width: 90px;
+    height: 90px;
+    margin-bottom:15px;
+    background-color: rgba(260, 140, 50, 0.2);
+    border:1px solid black;
+    box-shadow: 5px 5px black;
+    padding:30px;
 }
 
+.skill-tec .title{
+    width:152px;
+    text-align:center;
+}
