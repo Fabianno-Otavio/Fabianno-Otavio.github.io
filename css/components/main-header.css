@@ -17,3 +17,25 @@
     border:2px solid white;
 }
 
+.main-header .language-select{
+    font-family: inherit;
+    width: 75px;
+    height: 25px;
+    border:0;
+}
+
+.main-header .lang-logo{
+    width:auto;
+    height:25px;  
+    border:0;
+    margin-left:10px;
+}
+
+.main-header .lang-box{
+    position:absolute;
+    left:100px;
+    top:31.2px;
+    box-sizing: border-box;
+    display:flex;
+
+}
