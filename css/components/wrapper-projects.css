@@ -12,3 +12,11 @@
 .wrapper-projects a {
     margin-bottom:60px;
 }
+
+.wrapper-projects .project-name{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color:white;
+    width:280px;
+}
