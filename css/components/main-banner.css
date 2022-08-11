@@ -4,11 +4,11 @@
     background-repeat: no-repeat;
     background-size: 100%;
     border-bottom:10px solid #000;
-    padding: 116px 0 116px 91px;
+    padding: 116px 0 0 91px;
 }
 
 .main-banner .wrapper{ 
-    width:38%;
+    width:50%;
 }
 
 .main-banner .navigation{
@@ -21,4 +21,36 @@
 
 .main-banner .navigation .main-button{
     margin:0;
+}
+
+@media screen and (min-width: 1500px){
+
+    .main-banner{
+      padding-bottom:420px;
+    }
+
+}
+
+@media screen and (max-width: 1500px){
+
+    .main-banner{
+      padding-bottom:250px;
+    }
+
+}
+
+@media screen and (max-width: 1391px){
+
+    .main-banner{
+      padding-bottom:80px;
+    }
+
+}
+
+@media screen and (max-width: 1100px){
+
+    .main-banner{
+      padding-bottom:40px;
+    }
+
 }
