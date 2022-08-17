@@ -1,17 +1,17 @@
 .main-section{
-    background-color: #F18805;
-    border-bottom: 10px solid #2B4F61;
+    background-color: #B8252B;
+    border-bottom: 10px solid #000;
     position:relative;
     padding: 50px 50px 116px 50px;
 }
 
 .main-section.-projects{
-    background-color: #000;
-    border-bottom: 10px solid #F18805;
+    background-color: #216869 ;
+    border-bottom: 10px solid #000;
 }
 
 .main-section.-about{
-    background-color: #0A1045;
+    background-color: #B8252B;
     border-bottom:10px solid #000;
     padding:50px 80px 66px 80px;
     position: relative;

@@ -14,7 +14,8 @@
     box-sizing: border-box;
     width:60px;
     height:60px;
-    border:2px solid white;
+    border:3px solid black;
+    background-color: white;
 }
 
 .main-header .language-select{

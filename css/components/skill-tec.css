@@ -1,12 +1,11 @@
 .skill-tec {
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: "Fira Code", sans-serif;
     font-size: 25px;
     color: #FFF;
 }
 
 .skill-tec .logo {
     height: 90px;
-    margin-bottom:15px;
     background-color: rgba(260, 140, 50, 0.2);
     border:1px solid black;
     box-shadow: 5px 5px black;
