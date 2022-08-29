@@ -1,5 +1,6 @@
 .main-banner{
     box-sizing: border-box;
+    background-color: var(--primary-color);
     background-image: url(../../assets/img/background.png);
     background-repeat: no-repeat;
     background-size: 100%;

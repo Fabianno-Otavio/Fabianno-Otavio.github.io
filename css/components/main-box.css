@@ -1,9 +1,10 @@
 .main-box{
     display:inline-block;
-    background-color: #292929 ;
-    box-shadow: 10px 10px #000;
+    background-color: var(--box-bg) ;
+    box-shadow: 5px 5px 10px var(--box-shadow);
     padding:42px 44px;
     text-align: center;
+    border-radius:15px;
 }
 
 .main-box .title{

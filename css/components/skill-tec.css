@@ -6,10 +6,10 @@
 
 .skill-tec .logo {
     height: 90px;
-    background-color: rgba(260, 140, 50, 0.2);
-    border:1px solid black;
-    box-shadow: 5px 5px black;
+    background-color: var(--transparent-background);   
+    box-shadow: 5px 5px 10px black;
     padding:30px;
+    border-radius:5px;
 }
 
 .skill-tec .title{

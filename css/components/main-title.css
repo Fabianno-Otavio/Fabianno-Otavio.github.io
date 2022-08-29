@@ -1,13 +1,15 @@
 .main-title{
-    color:#E4960E;
-    font-size:40px;
-    font-family:"Press Start 2P", Arial, Helvetica, sans-serif;
-    text-shadow: 4px 4px #000;
+    color:var(--title-color);
+    font-size:65px;
+    font-family:"Fira Code", Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 5px var(--title-shadow);
     margin-bottom:60px;
+    
 }
 
 .main-title.-second{
+    font-size:30px;
     text-align:center;
     text-shadow:none;
-    color:#FFF;
+    color:var(--title-sc-color);
 }

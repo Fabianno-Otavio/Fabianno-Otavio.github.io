@@ -1,7 +1,7 @@
 .main-subtitle{
-    color: #fff;
-    font-size:30px;
-    font-family:"Press Start 2P", Arial, Helvetica, sans-serif;
-    text-shadow: 4px 4px 0 #000;
+    color: var(--subtitle-color);
+    font-size:40px;
+    font-family:"Source Code Pro", Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 5px var(--title-shadow);
     margin-top:28px;
 }

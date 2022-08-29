@@ -1,11 +1,12 @@
 .card-prj{
     width: 280px;
     height:280px;
-    background-color:#0A1045 ;
-    box-shadow:10px 10px #FFF;
+    background-color:var(--transparent-background) ;
+    box-shadow:5px 5px 10px#000;
     display:flex;
     justify-content: center;
     align-items: center;
+    border-radius:10px;
 }
 
 .card-prj .imgprj{
