@@ -1,16 +1,16 @@
 :root{
     --header-bg:#0A1045;
-    --primary-color:#2c3559;
-    --secondary-color:#373478;
+    --primary-color:#2B4753;
+    --secondary-color:#4C6583;
     --border-section:#000;
     --transparent-background:rgba(0, 0, 0, 0.2);
     --button-bg:#F18805;
     --button-shadow:#f0b56d;
     --button-bg-hover:#F06000;
-    --title-color:#014083;
-    --title-shadow:#BBB;
+    --title-color:#FFF;
+    --title-shadow:0;
     --title-sc-color: #FFF;
-    --subtitle-color:#000000;
-    --box-bg:#FFF;
+    --subtitle-color:#FFF;
+    --box-bg:#222;
     --box-shadow:#AAA;
 }

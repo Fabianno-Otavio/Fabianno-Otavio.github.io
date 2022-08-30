@@ -1,7 +1,7 @@
 .main-subtitle{
     color: var(--subtitle-color);
     font-size:40px;
-    font-family:"Source Code Pro", Arial, Helvetica, sans-serif;
+    font-family:"Fira Code", Arial, Helvetica, sans-serif;
     text-shadow: 4px 4px 5px var(--title-shadow);
     margin-top:28px;
 }
