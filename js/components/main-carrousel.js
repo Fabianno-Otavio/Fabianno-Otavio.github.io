@@ -8,6 +8,7 @@ document.querySelector(`.logo-abt.-n1`).style.transform='scale(1.08)';
  
 document.querySelector(`.logo-abt.-n2`).style.filter='blur(2px) grayscale(90%)';
 document.querySelector(`.logo-abt.-n3`).style.filter='blur(2px) grayscale(90%)';
+document.querySelector(`.logo-abt.-n4`).style.filter='blur(2px) grayscale(90%)';
 
 /*let pos = 0;
 function move(pixels){
@@ -42,6 +43,9 @@ function text(t){
             break;
         case 3:
             article.innerHTML='Em abril de 2022, visto a dificuldade de conseguir um emprego na minha área, e vendo a área de tecnologia crescer cada vez mais, me lembrei do quanto gostava da matéria de lógica de programação na faculdade, e decidi pesquisar mais sobre, me identifiquei muito com o FrontEnd, e decidi começar a minha transição de carreira, não só pelas maiores oportunidades, mas por fazer algo que realmente amo. Desde então me dedico em aprender HTML, CSS e JavaScript, e assim busco me tornar um desenvolvedor FrontEnd.';
+            break;
+        case 4:
+            article.innerHTML='Em setembro de 2022 comecei oficialmente minha carreira como desenvolvedor, com meu primeiro emprego na área na empresa H1 Software House e atuo como desenvolvedor FrontEnd. Aqui conheci pessoas incríveis com as quais tenho a oportunidade de trabalhar e desenvolver projetos excepcionais. Aqui desenvolvemos aplicações web utilizando diversas tecnologias, entre as principais: Angular, React, Typescript, Bootstrap, Ionic, NodeJs e PostgreSQL.';
     }
 }
 
@@ -50,17 +54,18 @@ function addEffects(x){
         case 1:
         case 2:
         case 3:
+        case 4:
             document.querySelector(`.logo-abt.-n${x}`).style.border='10px solid gray';       
             document.querySelector(`.logo-abt.-n${x}`).style.transform='scale(1.08)';   
             document.querySelector(`.logo-abt.-n${x}`).style.filter='';
             break;
         case 0:
-            n=3;
+            n=4;
             document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid gray';     
             document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.08)';
             document.querySelector(`.logo-abt.-n${n}`).style.filter='';
             break;
-        case 4:
+        case 5:
             n=1;
             document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid gray'; 
             document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.08)'; 

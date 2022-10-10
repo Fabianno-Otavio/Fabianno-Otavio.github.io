@@ -2,14 +2,17 @@
     font-family: "Fira Code", sans-serif;
     font-size: 25px;
     color: #FFF;
+    margin-bottom: 50px;
 }
 
 .skill-tec .logo {
     height: 90px;
+    width: 90px;
     background-color: var(--transparent-background);   
     box-shadow: 5px 5px 10px black;
     padding:30px;
     border-radius:5px;
+
 }
 
 .skill-tec .title{

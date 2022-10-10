@@ -5,6 +5,12 @@
     padding: 50px 50px 116px 50px;
 }
 
+.main-section.-skills .main-title,
+.main-section.-about .main-title
+{
+    color: #FFF;
+}
+
 .main-section.-projects{
     background-color: var(--primary-color) ;
     border-bottom: 10px solid var(--border-section);
