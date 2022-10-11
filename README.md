@@ -7,6 +7,3 @@
 </h3>
 
 <h3>:point_right: This project on GitHub Pages: https://fabianno-otavio.github.io/</h3>
-
-<h4>Preview:</h4>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/196260099@N04/52278515272/in/dateposted-public/" title="Capa Projeto Portifólio"><img src="https://live.staticflickr.com/65535/52278515272_78918cc094_z.jpg" width="640" height="320" alt="Capa Projeto Portifólio" align="justify"></a>
