@@ -8,6 +8,7 @@ document.querySelector(`.logo-abt.-n1`).style.transform='scale(1.08)';
  
 document.querySelector(`.logo-abt.-n2`).style.filter='blur(2px) grayscale(90%)';
 document.querySelector(`.logo-abt.-n3`).style.filter='blur(2px) grayscale(90%)';
+document.querySelector(`.logo-abt.-n4`).style.filter='blur(2px) grayscale(90%)';
 
 /*let pos = 0;
 function move(pixels){
@@ -50,6 +51,11 @@ function text(t){
                             the classes of programming logic in college, and decided to research more about it, I identified a lot with FrontEnd, and I decided to start my career 
                             transition, not only for the better opportunities, but for doing something I really love. Since then I dedicate myself to learning HTML, CSS and JavaScript, 
                             and so I seek to become a FrontEnd developer.`;
+            break;
+        case 4:
+             article.innerHTML=`In September of 2022, I officially started my career as a developer, with my first job in this area in the company H1 Software House where I act as FrontEnd developer.
+                            Here I met incredible people with whom I have the opportunity to work and develop exceptional projects. Here we develop web applications using many technologies,
+                            among the main: Angular, React, Typescript, Bootstrap, Ionic, NodeJs e PostgreSQL.`;
     }
 }
 
@@ -58,17 +64,18 @@ function addEffects(x){
         case 1:
         case 2:
         case 3:
+        case 4:
             document.querySelector(`.logo-abt.-n${x}`).style.border='10px solid gray';       
             document.querySelector(`.logo-abt.-n${x}`).style.transform='scale(1.08)';   
             document.querySelector(`.logo-abt.-n${x}`).style.filter='';
             break;
         case 0:
-            n=3;
+            n=4;
             document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid gray';     
             document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.08)';
             document.querySelector(`.logo-abt.-n${n}`).style.filter='';
             break;
-        case 4:
+        case 5:
             n=1;
             document.querySelector(`.logo-abt.-n${n}`).style.border='10px solid gray'; 
             document.querySelector(`.logo-abt.-n${n}`).style.transform='scale(1.08)'; 
