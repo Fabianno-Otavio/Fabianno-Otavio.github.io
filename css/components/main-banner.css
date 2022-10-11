@@ -10,17 +10,17 @@
 }
 
 .main-banner .wrapper{ 
-    width:50%;
+    width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: space-between;
 }
 
 .main-banner .navigation{
     display:flex;
     justify-content: space-evenly;
     margin-top: 38px;
-    min-width:408px;
-    max-width: 688px;
+    width:100%;
 }
 
 .main-banner .navigation .main-button{
